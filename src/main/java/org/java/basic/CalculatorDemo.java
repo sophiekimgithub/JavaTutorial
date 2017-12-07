@@ -1,4 +1,4 @@
-package org.intro;
+package org.java.basic;
 
 class Calculator {
     int left, right, third;

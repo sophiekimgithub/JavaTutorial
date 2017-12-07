@@ -1,4 +1,4 @@
-package org.intro;
+package org.java.basic;
 
 interface Info {
 	public abstract int getLevel();

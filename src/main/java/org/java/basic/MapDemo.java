@@ -1,4 +1,4 @@
-package org.intro;
+package org.java.basic;
 
 import java.util.HashMap;
 import java.util.Iterator;
