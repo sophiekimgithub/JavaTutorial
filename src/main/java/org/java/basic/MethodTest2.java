@@ -4,14 +4,9 @@ public class MethodTest2 {
 	
 	public static void main(String[] args) {
 	
-		boolean a = true;
-		boolean b = true;
+		boolean a = false;
+		boolean b = false;
 		
-		if(a) {
-			System.out.println("TEST1");
-		} else {
-			System.out.println("TEST2");
-		}
 		
 		if(a) {
 			System.out.println("A");
