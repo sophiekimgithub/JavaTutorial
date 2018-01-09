@@ -22,6 +22,8 @@ class Computer implements Comparable{
 	public int compareTo(Object o) {
 		return this.serial - ((Computer)o).serial;
 	}
+	
+
 }
 
 public class CollectionDemo {

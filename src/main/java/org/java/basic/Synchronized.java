@@ -16,7 +16,7 @@ public class Synchronized {
 			
 			@Override
 			public void run() {
-				for(int i=0; i<10000; i++) {
+				for(int i=0; i<1000; i++) {
 					add();
 				}
 			}
@@ -26,7 +26,7 @@ public class Synchronized {
 			
 			@Override
 			public void run() {
-				for(int i=0; i<10000; i++) {
+				for(int i=0; i<1000; i++) {
 					subtract();
 				}
 			}
@@ -40,7 +40,6 @@ public class Synchronized {
 			t1.join();
 			t2.join();
 		} catch (InterruptedException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
 		
